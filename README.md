@@ -11,6 +11,11 @@
 - set1 = ['classical', 'hiphop', 'metal', 'disco', 'reggae']
 - set2 = ['pop', 'rock', 'country', 'jazz', 'blues']
 
+## Feature extraction
+- Timbral Features: Mean and Variance of Spectral Centroid, Spectral Rolloff, Spectral Flux, Time Domain Zero Crossings, first five Mel-frequency Cepstral Coefficients (MFCC). Also Low Energy Feature is selected. All in all giving a 19 dimension feature matrix. 
+- Rhythmic Features: A0, A1: relative amplitude (divided by the sum of amplitudes) of the first, and second histogram peak; RA: ratio of the amplitude of the second peak divided by the amplitude of the first peak; P1, P2: period of the first, second peak in bpm; SUM: overall sum of the histogram (indication of beat strength.
+- Pitch Features: Prevalence of Most Common Pitch Class, Interval Between Most Prevalent Pitch Classes and Major-Minor Scale.  
+
 ## Outcome
 ### Comparison: Feature Selection
   * Analysis on Set1 
